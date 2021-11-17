@@ -1,6 +1,5 @@
 from pytracking.evaluation import Tracker, OTBDataset, VOTDataset, TrackingNetDataset, GOT10KDatasetTest, VOT16Dataset, VOT18Dataset, VOT19Dataset, NFSDataset, UAVDataset, TPLDataset, LaSOTDataset
 
-########## Coding by Yang 2021.11 ######## run experiments on benchmarks #####################################
 def got10k():
     # Run experiment on the Got10k dataset
     trackers = [Tracker('Jcat', 'Jcat')]
