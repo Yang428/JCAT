@@ -56,7 +56,7 @@ def save_mask(mask, mask_real, segm_crop_sz, bb, img_w, img_h, masks_save_path, 
     mask_save_path = os.path.join(mask_save_dir, '%s.png' % frame_name)
     cv2.imwrite(mask_save_path, image_mask)
 
-########## Coding by Yang 2020.10 ######## return mask to show ##########################################
+## resize mask to original image size ##
 def resize_mask(mask, mask_real, segm_crop_sz, bb, img_w, img_h):
     if mask is not None:
         M_sel = cv2.dilate(mask, np.ones((7, 7), np.uint8), iterations=1)
