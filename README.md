@@ -75,4 +75,4 @@ python run_training.py Jcat Jcat_default
 ```
 
 ## Acknowledgement
-This a modified version of [LEAST](https://github.com/Yang428/LEAST) tracker which is based on the [pytracking](https://github.com/visionml/pytracking) framework. We would like to thank the author Martin Danelljan of pytracking and the author Alan Lukežič of D3S.
+This a modified version of [LEAST](https://github.com/Yang428/LEAST) tracker which is based on the [pytracking](https://github.com/visionml/pytracking) framework. We would like to thank the author Martin Danelljan of [pytracking](https://github.com/visionml/pytracking) and the author Alan Lukežič of [D3S](https://github.com/alanlukezic/d3s).
