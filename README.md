@@ -59,7 +59,7 @@ vot evaluate JCAT
 vot analysis --workspace ./workspace_vot2020/JCAT
 ```
 
-## Training the networks
+## Training the network
 The JCAT network is trained only on the YouTube VOS dataset. Download the VOS training dataset (2018 version) and copy the files vos-list-train.txt and vos-list-val.txt from ltr/data_specs to the training directory of the VOS dataset.
 1) Download the training dataset from [this link](https://youtube-vos.org/challenge/2018/).
 
