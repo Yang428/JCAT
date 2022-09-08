@@ -3,7 +3,7 @@
 The main codes of the JCAT tracker will be available as soon as possible.
 
 ## Running Environments
-* Pytorch 1.1.0, Python 3.6.12, Cuda 10.0, torchvision 0.3.0, cudatoolkit 10.0, Matlab R2016b.
+* Pytorch 1.1.0, Python 3.6.12, Cuda 10.0, torchvision 0.3.0, cudatoolkit 9.0, Matlab R2016b.
 * Ubuntu 16.04, NVIDIA GeForce GTX 1080Ti.
 
 ## Installation
@@ -24,10 +24,11 @@ bash install.sh conda_install_path pytracking
 You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1aayqXtFBeqggeZKS2dMnxA), the extraction code is '6ka4'. Then put the model files 'JcatNet.pth.tar' to the subfolder 'pytracking/networks'.
 
 ## Testing the tracker
-There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/resultsOnBenchmarks) on six datasets. 
-1) Download the testing datasets Got-10k, TrackingNet, VOT2016, VOT2018, VOT2019 and VOT2020 from the following Baidu cloud links.
+There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/resultsOnBenchmarks) on seven datasets. 
+1) Download the testing datasets Got-10k, TrackingNet, OTB100, VOT2016, VOT2018, VOT2019 and VOT2020 from the following Baidu cloud links.
 * [Got-10k](https://pan.baidu.com/s/1t_PvpIicHc0U9yR4upf-cA), the extraction code is '78hq'.
 * [TrackingNet](https://pan.baidu.com/s/1BKtc4ndh_QrMiXF4fBB2sQ), the extraction code is '5pj8'.
+* [OTB100](https://pan.baidu.com/s/1BKtc4ndh_QrMiXF4fBB2sQ), the extraction code is '5pj8'.
 * [VOT2016](https://pan.baidu.com/s/1iU88Aqq9mvv9V4ZwY4gUuw), the extraction code is '8f6w'.
 * [VOT2018](https://pan.baidu.com/s/1ztAfNwahpDBDssnEYONDuw), the extraction code is 'jsgt'.
 * [VOT2019](https://pan.baidu.com/s/1vf7l4sQMCxZY_fDsHkuwTA), the extraction code is '61kh'.
@@ -39,11 +40,12 @@ There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/results
 Network path: pytracking/parameters/Jcat/Jcat.py  params.segm_net_path.
 Results path: pytracking/evaluation/local.py  settings.network_path, settings.results_path, dataset_path.
 ```
-3) Run the JCAT tracker on Got10k and TrackingNet datasets.
+3) Run the JCAT tracker on Got10k, TrackingNet and OTB100 datasets.
 ```
 cd pytracking
 python run_experiment.py myexperiments got10k
 python run_experiment.py myexperiments trackingnet
+python run_experiment.py myexperiments otb
 ```
 
 ## Evaluation on VOT16, VOT18 and VOT19 using Matlab R2016b
