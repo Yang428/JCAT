@@ -20,6 +20,21 @@ Run the installation script 'install.sh' to install all dependencies. We refer t
 bash install.sh conda_install_path pytracking
 ```
 
+#### Or step by step install
+```
+conda create -n pytracking python=3.6
+conda activate pytracking
+conda install -y pytorch=1.1.0 torchvision=0.3.0 cudatoolkit=9.0 -c pytorch
+conda install -y matplotlib=2.2.2
+conda install -y pandas
+pip install opencv-python
+pip install tensorboardX
+conda install -y cython
+pip install pycocotools
+pip install jpeg4py 
+sudo apt-get install libturbojpeg
+```
+
 #### Download the pre-trained networks
 You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1aayqXtFBeqggeZKS2dMnxA), the extraction code is '6ka4'. Then put the model files 'JcatNet.pth.tar' to the subfolder 'pytracking/networks'.
 
