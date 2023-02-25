@@ -1,6 +1,6 @@
 # JCAT Tracker
 
-The main codes of the JCAT tracker will be available as soon as possible.
+
 
 ## Running Environments
 * Pytorch 1.1.0, Python 3.6.12, Cuda 9.0, torchvision 0.3.0, cudatoolkit 9.0, Matlab R2016b.
