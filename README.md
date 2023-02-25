@@ -56,7 +56,7 @@ There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/results
 Network path: pytracking/parameters/Jcat/Jcat.py  params.segm_net_path.
 Results path: pytracking/evaluation/local.py  settings.network_path, settings.results_path, dataset_path.
 ```
-3) Run the JCAT tracker on Got10k, TrackingNet and OTB100 datasets.
+3) Run the JCAT tracker on Got10k, TrackingNet, OTB100 and LaSOT datasets.
 ```
 cd pytracking
 python run_experiment.py myexperiments got10k
