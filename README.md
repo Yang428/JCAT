@@ -39,11 +39,12 @@ sudo apt-get install libturbojpeg
 You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1aayqXtFBeqggeZKS2dMnxA), the extraction code is '6ka4'. Then put the model files 'JcatNet.pth.tar' to the subfolder 'pytracking/networks'.
 
 ## Testing the tracker
-There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/resultsOnBenchmarks) on seven datasets. 
+There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/resultsOnBenchmarks) on eight datasets. 
 1) Download the testing datasets Got-10k, TrackingNet, OTB100, VOT2016, VOT2018, VOT2019 and VOT2020 from the following Baidu cloud links.
 * [Got-10k](https://pan.baidu.com/s/1t_PvpIicHc0U9yR4upf-cA), the extraction code is '78hq'.
 * [TrackingNet](https://pan.baidu.com/s/1BKtc4ndh_QrMiXF4fBB2sQ), the extraction code is '5pj8'.
 * [OTB100](https://pan.baidu.com/s/1TC6BF9erhDCENGYElfS3sw), the extraction code is '9x8q'.
+* [LaSOT](https://pan.baidu.com/s/1KBlrWGOFH9Fe85pCWN5ZkA&shfl=sharepset#list/path=%2F).
 * [VOT2016](https://pan.baidu.com/s/1iU88Aqq9mvv9V4ZwY4gUuw), the extraction code is '8f6w'.
 * [VOT2018](https://pan.baidu.com/s/1ztAfNwahpDBDssnEYONDuw), the extraction code is 'jsgt'.
 * [VOT2019](https://pan.baidu.com/s/1vf7l4sQMCxZY_fDsHkuwTA), the extraction code is '61kh'.
@@ -61,6 +62,7 @@ cd pytracking
 python run_experiment.py myexperiments got10k
 python run_experiment.py myexperiments trackingnet
 python run_experiment.py myexperiments otb
+python run_experiment.py myexperiments lasot
 ```
 
 ## Evaluation on VOT16, VOT18 and VOT19 using Matlab R2016b
