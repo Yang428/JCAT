@@ -1,5 +1,10 @@
 # JCAT - Joint Correlation and Attention Based Feature Fusion Network for Accurate Visual Tracking
 
+## Publication
+Yijin Yang and Xiaodong Gu.
+Joint Correlation and Attention Based Feature Fusion Network for Accurate Visual Tracking.
+TIP, 2023. [[paper]](10.1109/TIP.2023.3251027)
+
 # Abstract
 Correlation operation and attention mechanism are two popular feature fusion approaches which play an important role in visual object tracking. However, the correlation-based tracking networks are sensitive to location information but loss some context semantics, while the attention-based tracking networks can make full use of rich semantic information but ignore the position distribution of the tracked object. Therefore, in this paper, we propose a novel tracking framework based on joint correlation and attention networks, termed as JCAT, which can effectively combine the advantages of these two complementary feature fusion approaches. Concretely, the proposed JCAT approach adopts parallel correlation and attention branches to generate position and semantic features. Then the fusion features are obtained by directly adding the location feature and semantic feature. Finally, the fused features are fed into the segmentation network to generate the pixel-wise state estimation of the object. Furthermore, we develop a segmentation memory bank and an online sample filtering mechanism for robust segmentation and tracking. The extensive experimental results on eight challenging visual tracking benchmarks show that the proposed JCAT tracker achieves very promising tracking performance and sets a new state-of-the-art on the VOT2018 benchmark.
 
