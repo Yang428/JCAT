@@ -46,7 +46,7 @@ sudo apt-get install libturbojpeg
 You can download the packed conda environment from the [Baidu cloud link](https://pan.baidu.com/s/1gMQOB2Zs1UPj6n8qzJc4Lg?pwd=qjl2), the extraction code is 'qjl2'.
 
 #### Download the pre-trained networks
-You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1aayqXtFBeqggeZKS2dMnxA), the extraction code is '6ka4'. Then put the model files 'JcatNet.pth.tar' to the subfolder 'pytracking/networks'.
+You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1aayqXtFBeqggeZKS2dMnxA), the extraction code is '6ka4'. Then put the model file 'JcatNet.pth.tar' to the subfolder 'pytracking/networks'.
 
 ## Testing the tracker
 There are the [raw resullts](https://github.com/Yang428/JCAT/tree/master/resultsOnBenchmarks) on eight datasets. 
