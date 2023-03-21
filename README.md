@@ -41,6 +41,10 @@ pip install jpeg4py
 sudo apt-get install libturbojpeg
 ```
 
+#### Or copy my environment directly.
+
+You can download the packed environment from the [Baidu cloud link](https://pan.baidu.com/s/1gMQOB2Zs1UPj6n8qzJc4Lg?pwd=qjl2), the extraction code is 'qjl2'.
+
 #### Download the pre-trained networks
 You can download the models from the [Baidu cloud link](https://pan.baidu.com/s/1aayqXtFBeqggeZKS2dMnxA), the extraction code is '6ka4'. Then put the model files 'JcatNet.pth.tar' to the subfolder 'pytracking/networks'.
 
